@@ -1,3 +1,119 @@
 # Linktree
 
 ### This Linktree Was Made By [@♛gzf♛](https://github.com/Argzf), If You Want To Copy This Code Please Give Him Credit 🙏 
+
+## Code:
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/avatars/935053416877666304/d913244db36cba9ee0145e9345e1b9e7.png">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2f3136" data-react-helmet="true" />
+    <meta name="author" content="gzf">
+    <meta name="description" content="A portal to all my links">
+    <meta name="keywords" content="gzf, gzf.dev, gzf-dev, gzf_dev, Arsan">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gzf • Linktree">
+    <meta property="og:description" content="Hi, Im Gzf. And here's the portal to all of my links.">
+    <meta property="og:image" content="https://cdn.discordapp.com/avatars/935053416877666304/d913244db36cba9ee0145e9345e1b9e7.png">
+    <meta property="og:url" content="http://gzf-linktree.great-site.net" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne"/>
+    <title>Linktree</title>
+    <style>
+      body {
+        background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80); 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover; 
+        font-family: "Syne", sans-serif;
+      }
+
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .link {
+        min-width: 50% !important;
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1140px;
+        }
+      }
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          max-width: 720px;
+        }
+
+        .link {
+          width: 100%;
+        }
+      }
+      @media (min-width: 576px) {
+        .container {
+          max-width: 540px;
+        }
+      }
+
+      .w3-yellow,
+      .w3-hover-purple:hover,
+      .w3-text-black {
+        color: rgba(255, 204, 217) !important;
+        background-color: rgba(255, 255, 179, 0.3) !important;
+      }
+    </style>
+  </head>
+
+  <body class="w3-white">
+    <div class="container">
+      <div class="image-container">
+        <img
+          src="https://cdn.discordapp.com/avatars/935053416877666304/d913244db36cba9ee0145e9345e1b9e7.png?size=1024"
+          class="w3-margin"
+          alt="Person"
+          max-width="100%"
+          height="150px"
+          style="border-radius: 50%"
+        />
+
+        <div class="w3-text-white">
+          <p class="w3-large"><strong>Gzf</strong></p>
+        </div>
+
+        <div class="links-container">
+          <a href="https://discord.com/users/935053416877666304" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">My Discord</a>
+          <a href="https://discord.com/users/972866679220617297" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">My Discord Bot</a>
+          <a href="https://discord.gg/Hj9ekSwqrA" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">My Discord Bot Support Server</a>
+          <a href="http://gzf-linktree.great-site.net/blog" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow link" target="_blank">Blog</a>
+          <a href="mailto:gzf.dev@gmail.com" class="w3-button w3-hover-pink w3-large w3-round-xlarge w3-yellow mailto" target="_blank">Contact Me</a>
+        </div>
+  </body>
+</html>
+```
